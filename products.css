@@ -1,0 +1,207 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.product-details-container {
+  margin-top: 250px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-content h1 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.product-price {
+  color: #888;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.product-description {
+  line-height: 1.6;
+}
+
+/* Add more styles as necessary */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#banner {
+  display: flex;
+  margin-left: 25px;
+  align-items: center;
+  gap: 30px;
+}
+
+/* header {
+  text-align: center; 
+   background: #eee; 
+   padding: 20px 0;
+} */
+
+#navbar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  padding-left: 20px;
+  background-color: #eb583f;
+  height: 50px;
+}
+
+#navbar a {
+  margin: 15px 15px;
+  text-decoration: none;
+  color: #111;
+}
+/* 
+.hero h1 {
+  margin: 0;
+}
+
+.hero p {
+  margin: 5px 0 20px;
+} */
+
+main {
+  display: flex;
+}
+
+#sidebar {
+  width: 15%;
+  background: #f4f4f4;
+  padding: 20px;
+  /* align-content: center; */
+}
+
+#products {
+  width: 80%;
+  padding: 20px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* background-color: red; */
+}
+
+.product {
+  /* width: calc(50% - 40px); Adjust based on your layout preferences */
+  margin: 10px;
+  padding: 10px;
+  background: #ddd;
+}
+
+.filter-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.product-image {
+  width: 100%; /* Full width of the card */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Cover the area without stretching */
+}
+
+.price-tag {
+  font-size: 1.2em; /* Larger font for the price tag */
+  font-weight: bold; /* Make the price tag bold */
+  color: #eb583f; /* Use the brighter red color for the price tag */
+  padding: 5px 0; /* Add some vertical padding */
+  /* Add other styles as needed */
+}
+
+.product-info {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comments-count {
+  color: #777;
+  font-size: 0.9em;
+}
+.product-details-container {
+  margin-top: 50px;
+}
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-selector input[type="number"] {
+  text-align: center;
+  width: 50px;
+  margin: 0 5px;
+}
+
+.quantity-selector .quantity-change {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.add-to-cart:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+/* Style adjustments for the button's focus and active states for better accessibility */
+.quantity-selector .quantity-change:focus,
+.add-to-cart:focus,
+.quantity-selector .quantity-change:active,
+.add-to-cart:active {
+  outline: none;
+  border-color: #4caf50;
+}
