@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="banner">
+      <img src="flag.png" alt="flag" height="50px" width="75px" />
+      <h1>Bolivian Products Demo</h1>
+    </div>
+    <header>
+      <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html">Products</a>
+        <a href="index.html">About</a>
+        <a href="index.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <aside id="sidebar">
+        <!-- Buttons for filtering, can be dynamically generated -->
+
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wine">Wine</button>
+        <button class="filter-btn" data-filter="honey">Honey</button>
+        <button class="filter-btn" data-filter="others">Others</button>
+      </aside>
+      <section id="products">
+        <!-- Product 1 -->
+        <div class="product" data-category="wine">
+          <a href="product1.html">
+            <img
+              src="product1.webp"
+              alt="Product 1 Image"
+              class="product-image"
+            />
+          </a>
+          <div class="product-info">
+            <h3>Andean Peaks Bolivian Wine</h3>
+            <p class="price-tag">$22.99</p>
+            <p>Experience the richness of Bolivia with our Andean Peaks Wine</p>
+            <p class="comments-count">100+ Comments</p>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="product" data-category="honey">
+          <a href="product2.html">
+            <img
+              src="product2.webp"
+              alt="Product 2 Image"
+              class="product-image"
+          /></a>
+          <div class="product-info">
+            <h3>Bolivian Tropical Honey</h3>
+            <p class="price-tag">$12.99</p>
+            <p>
+              Harvested sustainably from the heart of South America's biodiverse
+              flora.
+            </p>
+            <p class="comments-count">500+ Comments</p>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="product" data-category="others">
+          <a href="product3.html">
+            <img
+              src="product3.webp"
+              alt="Product 3 Image"
+              class="product-image"
+            />
+          </a>
+          <div class="product-info">
+            <h3>Bolivian Highland Coffee</h3>
+            <p class="price-tag">$16.99</p>
+            <p>
+              Sourced from the verdant Yungas region. Hand-picked and sun-dried
+              for the highest quality brew
+            </p>
+            <p class="comments-count">200+ Comments</p>
+          </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="product" data-category="others">
+          <a href="product4.html">
+            <img
+              src="product4.webp"
+              alt="Product 4 Image"
+              class="product-image"
+            />
+          </a>
+          <div class="product-info">
+            <h3>Bolivian Sacred Cocoa</h3>
+            <p class="price-tag">$14.99</p>
+            <p>
+              Renowned for its complex flavor profile and ancient cultivation by
+              indigenous communities.
+            </p>
+            <p class="comments-count">1000+ Comments</p>
+          </div>
+        </div>
+        <!-- Product 5 -->
+        <div class="product" data-category="others">
+          <a href="product5.html">
+            <img
+              src="product5.webp"
+              alt="Product 5 Image"
+              class="product-image"
+            />
+          </a>
+          <div class="product-info">
+            <h3>Bolivian Aromatic Spices</h3>
+            <p class="price-tag">$8.99 / pack</p>
+            <p>
+              Discover the essence of Bolivian cuisine with our Aromatic Spices
+              collection
+            </p>
+            <p class="comments-count">150+ Comments</p>
+          </div>
+        </div>
+        <!-- Product 6 -->
+        <div class="product" data-category="honey">
+          <a href="product6.html">
+            <img
+              src="product6.webp"
+              alt="Product 6 Image"
+              class="product-image"
+            />
+          </a>
+          <div class="product-info">
+            <h3>Tropical Forest Honey</h3>
+            <p class="price-tag">$9.99</p>
+            <p>Sourced from the depths of Bolivia's diverse ecosystems</p>
+            <p class="comments-count">700+ Comments</p>
+          </div>
+        </div>
+        <!-- Product 7 -->
+        <div class="product" data-category="wine">
+          <a href="product7.html">
+            <img
+              src="product7.webp"
+              alt="Product 7 Image"
+              class="product-image"
+            />
+          </a>
+          <div class="product-info">
+            <h3>Valle de Sol Bolivian Red Wine</h3>
+            <p class="price-tag">$19.99</p>
+            <p>
+              Sip on the bold flavors of Valle de Sol. Perfect for pairing with
+              a fine meal.
+            </p>
+            <p class="comments-count">1500+ Comments</p>
+          </div>
+        </div>
+        <!-- Product 8 -->
+        <div class="product" data-category="wine">
+          <a href="product8.html">
+            <img
+              src="product8.webp"
+              alt="Product 8 Image"
+              class="product-image"
+            />
+          </a>
+          <div class="product-info">
+            <h3>Sunshine Vineyards Bolivian Rosé</h3>
+            <p class="price-tag">$18.99</p>
+            <p>Crafted from grapes grown in the radiant Bolivian sunshine</p>
+            <p class="comments-count">500+ Comments</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

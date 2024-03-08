@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="products.css" />
+  </head>
+  <body>
+    <div id="banner">
+      <img src="flag.png" alt="flag" height="50px" width="75px" />
+      <h1>Bolivian Products Demo</h1>
+    </div>
+    <header>
+      <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html">Products</a>
+        <a href="index.html">About</a>
+        <a href="index.html">Contact</a>
+      </nav>
+    </header>
+    <div class="product-details-container">
+      <div class="product-image">
+        <img src="product1.webp" alt="Product Name" />
+      </div>
+      <div class="product-content">
+        <h1>Andean Peaks Bolivian Wine</h1>
+        <p class="product-price">Price: $22.99</p>
+        <p class="product-description">
+          Experience the richness of Bolivia with our Andean Peaks Wine,
+          cultivated from the highest vineyards in the world and aged to
+          perfection for a taste that's both bold and smooth.
+        </p>
+        <!-- Add more details as per your layout -->
+        <p class="comments-count">100+ Comments</p>
+        <!-- Quantity Selector -->
+        <div class="quantity-selector">
+          <button
+            type="button"
+            class="quantity-change"
+            onclick="changeQuantity(-1)"
+          >
+            -
+          </button>
+          <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            value="1"
+            min="1"
+          />
+          <button
+            type="button"
+            class="quantity-change"
+            onclick="changeQuantity(1)"
+          >
+            +
+          </button>
+        </div>
+
+        <!-- Add to Cart Button -->
+        <button type="button" class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+    <!-- Rest of the page content -->
+    <script src="product_script.js"></script>
+  </body>
+</html>
